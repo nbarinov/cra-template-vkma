@@ -1,23 +1,23 @@
 {
   "package": {
     "dependencies": {
-      "@clickpick/shared": "^0.1.8",
+      "@clickpick/shared": "^0.1.9",
       "@happysanta/bridge-plus": "^0.0.22",
       "@happysanta/router": "^0.1.19",
-      "@vkontakte/icons": "^1.128.1",
+      "@vkontakte/icons": "^1.129.0",
       "@vkontakte/vk-bridge": "^2.4.8",
       "@vkontakte/vkjs": "^0.22.1",
       "@vkontakte/vkui": "^4.16.0"
     },
     "devDependencies": {
-      "@types/node": "^16.7.13",
-      "@types/react": "^17.0.20",
+      "@types/node": "^16.10.3",
+      "@types/react": "^17.0.27",
       "@types/react-dom": "^17.0.9",
       "@vkontakte/eslint-config": "^3.0.0",
       "@vkontakte/vk-miniapps-deploy": "^0.0.25",
       "editorconfig-checker": "^4.0.2",
       "eslint-plugin-react-hooks": "^4.2.0",
-      "typescript": "^4.4.2"
+      "typescript": "^4.4.3"
     },
     "scripts": {
       "start": "react-scripts start",
