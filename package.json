@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-vkma",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "vkma",
+    "vk mini apps",
+    "mini apps"
+  ],
+  "description": "The base VKMA template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbarinov/cra-template-vkma.git"
+  },
+  "license": "MIT",
+  "main": "template.json",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/nbarinov/cra-template-vkma/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

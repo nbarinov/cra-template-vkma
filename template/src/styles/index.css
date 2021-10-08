@@ -1,0 +1,5 @@
+@import './fonts.css';
+@import '@vkontakte/vkui/dist/vkui.css';
+@import './variables.css';
+@import './patch.css';
+@import './utils.css';
