@@ -1,6 +1,8 @@
 import './styles';
 import type { AnyFunction } from '@clickpick/shared';
+import { initView } from './partial/view';
 import { mount } from './partial/mount';
+import { captureError } from './utils/error';
 
 ((fn: AnyFunction) => {
   if (document.readyState !== 'loading') {
@@ -8,4 +10,7 @@ import { mount } from './partial/mount';
   } else {
     document.addEventListener('DOMContentLoaded', fn);
   }
-})(mount);
+})(() => {
+  initView().catch(captureError);
+  mount();
+});
