@@ -1,6 +1,5 @@
 import { BridgePlus } from '@happysanta/bridge-plus';
 import bridge from '@vkontakte/vk-bridge';
-import { Debug } from '../lib/debug';
 
 function fallbackInit() {
   return new Promise((resolve) => {
@@ -26,7 +25,7 @@ export function initView() {
 
       const oldScheme = document.body.getAttribute('scheme');
       if (oldScheme !== scheme) {
-        setViewSettings(isDark).catch((e) => Debug.log('setViewSettings error', e));
+        setViewSettings(isDark).catch((e) => console.log('setViewSettings error', e));
         document.body.setAttribute('scheme', scheme);
       }
     });
