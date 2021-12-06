@@ -4,9 +4,6 @@ import { RouterContext } from '@happysanta/router';
 import { router } from '../router';
 import { ConfigProvider } from '@vkontakte/vkui';
 
-router.start();
-BridgePlus.init();
-
 export const Init: FC = (props) => {
   return (
     <RouterContext.Provider value={router}>
